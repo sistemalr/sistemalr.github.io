@@ -417,7 +417,7 @@ a.read_more2:hover {
 }
 
 .work_bottom {
-    padding: 20px 0 0 0px;
+    padding: 100px 0 0 0px;
 }
 
 .work_bottom span {
@@ -431,7 +431,7 @@ a.contact_btn {
     background: #fff;
     text-transform: uppercase;
     display: block;
-    width: 176px;
+    width: 300px;
     height: 49px;
     text-align: center;
     line-height: 49px;
