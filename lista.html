@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTA LR STORE OFICIAL</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       body {
+		background: #E9E9E9 url(http://i.imgur.com/Tj1Q5vq.jpg) repeat-y center top;
+		font-family: Tahoma, sans-serif;
+		margin:0;
+		padding:0;
+		}
+        
+        h1 {
+            text-shadow: 2px 1px 10px #556647;
+        }
+
+        .botao {
+            display: inline-block;
+            padding: 05px 20px;
+            background-color: #ce6414;
+            color: White;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .botao:hover {
+			color: white;
+            background-color: #1e2f60;
+        }
+
+        .container-imagem {
+            margin-top: 20px;
+        }
+
+        .container-imagem img {
+            width: 150px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .titulo {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: Black;
+        }
+
+        /* Estilos para o menu de Filmes em Destaque */
+        .destaque-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .filme-card {
+            width: 200px;
+            text-align: left;
+            background-color: #333;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .filme-img {
+            width: 100%;
+            height: auto;
+        }
+
+        .filme-info {
+            padding: 10px;
+        }
+
+        .filme-titulo {
+            font-size: 16px;
+            color: Black;
+        }
+		body {
+		background-color: #1C1C1C;
+		text-align: center;
+		color: Black;
+		}
+
+		.banner {
+		background:url('https://sistemalr.github.io/img/Banner.png') no-repeat center top;
+		height:180px;
+		margin-top:-3px;
+		}
+
+    </style>
+</head>
+<body>
+		<div id='header-wrapper'> 
+			<div class='banner'/> 
+		</div>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-12"> 
+				<center>
+                <a href="https://sistemalr.github.io/lista.html">
+                    <img src="https://sistemalr.github.io/img/LR.png" alt="Logo LR Store" class="img-fluid">
+                </a>
+				</center>
+					<div class="container">
+						<p class="text-center"><b>PESQUISE OS JOGOS DISPONÍVEIS</b></p>
+						<p class="text-center"><b></b></p>
+						<br>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<a href="https://sistemalr.github.io/lista.html" class="botao">Resetar</a>
+
+<!-- Barra de Pesquisa -->
+
+<div class="container">
+    <input type="text" color="Black" id="searchInput" placeholder="Digite sua pesquisa..." onkeyup="search()">
+</div>
+
+<div id="searchResults" class="container"></div>
+<script src="script.js"></script>
+
+<!-- Título -->
+
+<div class="container">
+    <h2 class="titulo">JOGOS MAIS PROCURADOS</h2>
+</div>
+
+<!-- Container da Imagem -->
+<div class="container-imagem">
+    <img id="imagem-troca" src="img/img01.jpg" alt="Imagem 1">
+</div>
+
+<br>
+
+<footer class="text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p><b>Copyright 2024 © LR STORE. Todos os direitos Reservados.</b></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
+ 
