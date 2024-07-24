@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LR STORE OFICIAL</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #1C1C1C;
+            text-align: center;
+            color: white;
+        }
+        
+        h1 {
+            text-shadow: 2px 1px 10px #556647;
+        }
+
+        .botao {
+            display: inline-block;
+            padding: 05px 20px;
+            background-color: #0c2760;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .botao:hover {
+            background-color: #1e2f60;
+        }
+
+        .container-imagem {
+            margin-top: 20px;
+        }
+
+        .container-imagem img {
+            width: 150px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .titulo {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: White;
+        }
+
+        /* Estilos para o menu de Filmes em Destaque */
+        .destaque-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .filme-card {
+            width: 200px;
+            text-align: left;
+            background-color: #333;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .filme-img {
+            width: 100%;
+            height: auto;
+        }
+
+        .filme-info {
+            padding: 10px;
+        }
+
+        .filme-titulo {
+            font-size: 16px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-2">
+    <div class="row">
+        <div class="col-12">
+            <hr>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <p>&nbsp;</p>
+                </div>
+                <div class="col-auto">
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+            <center>
+                <a href="https://sistemalr.github.io">
+                    <img src="http://sistemalr.github.io/img/LR.png" alt="Logo LR Store" class="img-fluid">
+                </a>
+            </center>
+            <div class="container">
+                <br>
+                <p class="text-center"><b>SERVIDOR LR STORE TV</b></p>
+                <p class="text-center"><b>Pesquise os conteúdos disponíveis no App</b></p>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a href="https://sistemalr.github.io" class="botao">Resetar</a>
+
+<!-- Barra de Pesquisa -->
+
+<div class="container">
+    <input type="text" color="White" id="searchInput" placeholder="Digite sua pesquisa..." onkeyup="search()">
+</div>
+
+<div id="searchResults" class="container"></div>
+<script src="listv.js"></script>
+
+<!-- Título -->
+
+<div class="container">
+    <h2 class="titulo">NOVOS CONTEÚDOS</h2>
+</div>
+
+<!-- Container da Imagem -->
+<div class="container-imagem">
+    <img id="imagem-troca" src="img/img01.jpg" alt="Imagem 1">
+</div>
+
+<br>
+<hr>
+<footer class="text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p>Copyright 2024 © LR STORE. Todos os direitos Reservados.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
