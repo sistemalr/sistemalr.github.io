@@ -54,6 +54,7 @@ const data = [
     { name: "FIFA 17 [PT-BR] ✔️", defaultColor: "green", color: "green" },
     { name: "FIFA 18 [PT-BR] ✔️", defaultColor: "green", color: "green" },
     { name: "FIFA 19 [PT-BR] ✔️", defaultColor: "green", color: "green" },
+    { name: "HAZE PS3 ✔️", defaultColor: "green", color: "green" },
     { name: "FIFA 2024 [COMPLETO] ✔️", defaultColor: "green", color: "green" },
     { name: "UEFA EURO: WINNING ELEVEN 2016 ✔️", defaultColor: "green", color: "green" },
     { name: "PRO EVOLUTION SOCCER 2010 ✔️", defaultColor: "green", color: "green" },
